@@ -27,9 +27,19 @@ tw-story {
 p {
   text-align: center;
 }
+h1 {
+  text-align: center;
+  color: red;
+}
+
+tw-river {
+  
+}
+
 
 
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">
+
 
 
 </script><tw-tag name="Beginning" color="gray"></tw-tag>,<tw-tag name="ifthen" color="green"></tw-tag><tw-passagedata pid="1" name="The Story Begins" tags="Beginning" position="901,0" size="100,100">(set: $points to 0)
@@ -47,11 +57,20 @@ Question: Which of the following choices are a conditional statement?
 [[class]]
 [[int]]
 &lt;/p&gt;</tw-passagedata><tw-passagedata pid="2" name="Method" tags="" position="1704,105" size="100,100">Howard falls down a pit, and is never seen from again....
-&lt;h1 style=&quot;text-align:center;&quot;&gt;&lt;font color=&quot;red&quot;&gt;GAME OVER&lt;/font&gt;&lt;/h1&gt;</tw-passagedata><tw-passagedata pid="3" name="If-then" tags="ifthen" position="486,11" size="100,100">Howard begins to look around and finds a loose stone over the words &quot;if-then&quot; opening a doorway to the catacombs that lie ahead. Beside you are some light sources that you can use. Do you pick up the [[Flashlight]] or [[Torch]]? 
 
-(set: $points to $points + 1)</tw-passagedata><tw-passagedata pid="4" name="class" tags="" position="1702,209" size="100,100">Howard tries to push the door open with this answer, but is only caught with the hit of the door straight into his face.
-&lt;h1 style=&quot;text-align:center;&quot;&gt;&lt;font color=&quot;red&quot;&gt;GAME OVER&lt;/font&gt;&lt;/h1&gt;</tw-passagedata><tw-passagedata pid="5" name="int" tags="" position="1703,1" size="100,100">A giant bucket of lava pours onto Howard&#39;s head, melting him into an ooze of rubber.... Bummer.
-&lt;h1 style=&quot;text-align:center;&quot;&gt;&lt;font color=&quot;red&quot;&gt;GAME OVER&lt;/font&gt;&lt;/h1&gt;</tw-passagedata><tw-passagedata pid="6" name="Flashlight" tags="" position="2,205" size="100,100">Lucky for Howard, the batteries still work (no matter how long the flashlight&#39;s been within the caverns). Howard&#39;s feet begin to squak along the marsh-like ground, as he approaches a door covered with some more statements and buttons corresponding to them. 
+Questions right: $points
+
+&lt;h1&gt;GAME OVER&lt;/h1&gt;</tw-passagedata><tw-passagedata pid="3" name="If-then" tags="ifthen" position="486,11" size="100,100">Howard begins to look around and finds a loose stone over the words &quot;if-then&quot; opening a doorway to the catacombs that lie ahead. Beside you are some light sources that you can use. Do you pick up the [[Flashlight]] or [[Torch]]? 
+
+(set: $points to $points + 1)</tw-passagedata><tw-passagedata pid="4" name="class" tags="" position="1701,209" size="100,100">Howard tries to push the door open with this answer, but is only caught with the hit of the door straight into his face.
+
+Questions right: $points
+
+&lt;h1&gt;GAME OVER&lt;/h1&gt;</tw-passagedata><tw-passagedata pid="5" name="int" tags="" position="1704,1" size="100,100">A giant bucket of lava pours onto Howard&#39;s head, melting him into an ooze of rubber.... Bummer.
+
+Questions right: $points
+
+&lt;h1&gt;GAME OVER&lt;/h1&gt;</tw-passagedata><tw-passagedata pid="6" name="Flashlight" tags="" position="2,205" size="100,100">Lucky for Howard, the batteries still work (no matter how long the flashlight&#39;s been within the caverns). Howard&#39;s feet begin to squak along the marsh-like ground, as he approaches a door covered with some more statements and buttons corresponding to them. 
 Which of the following is used in coding in place of the word &quot;not&quot;
 
 &lt;p&gt;
@@ -59,7 +78,9 @@ Which of the following is used in coding in place of the word &quot;not&quot;
 [[&gt;]]
 [[!]]
 [[++]]
-&lt;/p&gt;</tw-passagedata><tw-passagedata pid="7" name="Torch" tags="torch" position="709,104" size="100,100">The light flickers, as Howard takes an immediate left towards the next question. In front of Howard is a bridge, and like all fairytale bridges, there is a bridge troll. The troll, whose name is Kronk, asks Howard a simple programming question: 
+&lt;/p&gt;
+
+(set: $points to $points + 1)</tw-passagedata><tw-passagedata pid="7" name="Torch" tags="torch" position="709,104" size="100,100">The light flickers, as Howard takes an immediate left towards the next question. In front of Howard is a bridge, and like all fairytale bridges, there is a bridge troll. The troll, whose name is Kronk, asks Howard a simple programming question: 
 Within a program, what do you use that can have multiple methods, but no variables?
 
 &lt;p style=&quot;text-align:center;&quot;&gt;
@@ -69,34 +90,50 @@ Within a program, what do you use that can have multiple methods, but no variabl
 &lt;/p&gt;
 
 
-(set: $points to $points + 1)</tw-passagedata><tw-passagedata pid="8" name="==" tags="" position="307,296" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="9" name="&gt;" tags="" position="207,406" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="10" name="!" tags="" position="3,501" size="100,100">He presses the button above the &quot;!&quot; answer, opening to a huge landscape of vegetation. There are trees, shrubs, rivers, and even more of his rubber duck kind. In the middle is a duck, so large that it could pass as a statue. 
+(set: $points to $points + 1)</tw-passagedata><tw-passagedata pid="8" name="==" tags="" position="307,296" size="100,100">
+Questions right: $points</tw-passagedata><tw-passagedata pid="9" name="&gt;" tags="" position="207,406" size="100,100">
+Questions right: $points</tw-passagedata><tw-passagedata pid="10" name="!" tags="" position="3,501" size="100,100">He presses the button above the &quot;!&quot; answer, opening to a huge landscape of vegetation. There are trees, shrubs, rivers, and even more of his rubber duck kind. In the middle is a duck, so large that it could pass as a statue. 
 The giant asks &quot;What can you use, young duck, to set a variable as unchangeable?&quot;
 
-&lt;p style=&quot;text-align:center;&quot;&gt;
+&lt;p&gt;
 [[private]]
 [[boolean]]
 [[final]]
 [[new]]
-&lt;/p&gt;</tw-passagedata><tw-passagedata pid="11" name="++" tags="" position="210,182" size="100,100">The room Howard is in starts to flood, as he has nothing left to do but float in the water for the rest of his life.
-&lt;h1 style=&quot;text-align:center;&quot;&gt;&lt;font color=&quot;red&quot;&gt;GAME OVER&lt;/font&gt;&lt;/h1&gt;</tw-passagedata><tw-passagedata pid="12" name="loop" tags="" position="738,299" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="13" name="file" tags="" position="546,211" size="100,100">&quot;No bridge for you!&quot; Kronk yells
-Howard becomes very sad and leaves the cave altogether, banished from ever attaining the wealth with the catacomb walls.
+&lt;/p&gt;
+
+(set: $points to $points + 1)</tw-passagedata><tw-passagedata pid="11" name="++" tags="" position="212,182" size="100,100">The room Howard is in starts to flood, as he has nothing left to do but float in the water for the rest of his life.
+&lt;h1&gt;GAME OVER&lt;/h1&gt;</tw-passagedata><tw-passagedata pid="12" name="loop" tags="" position="737,298" size="100,100">
+Questions right: $points</tw-passagedata><tw-passagedata pid="13" name="file" tags="" position="546,211" size="100,100">&quot;No bridge for you!&quot; Kronk yells.
+Howard becomes very sad and leaves the cave altogether, banished from ever attaining the wealth within the catacomb walls.
+
+&lt;h1&gt;GAME OVER&lt;/h1&gt;
 
 Questions right: $points
-</tw-passagedata><tw-passagedata pid="14" name="Interface" tags="" position="897,203" size="100,100">&quot;You now have access to this bridge whenever you&#39;d like.&quot;
-</tw-passagedata><tw-passagedata pid="15" name="private" tags="" position="131,610" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="16" name="boolean" tags="" position="417,569" size="100,100">&quot;Boolean?&quot;
+</tw-passagedata><tw-passagedata pid="14" name="Interface" tags="" position="898,202" size="100,100">&quot;You now have access to this bridge whenever you&#39;d like.&quot;
+</tw-passagedata><tw-passagedata pid="15" name="private" tags="" position="131,610" size="100,100">
+Questions right: $points</tw-passagedata><tw-passagedata pid="16" name="boolean" tags="" position="417,569" size="100,100">&quot;Boolean?&quot;
 &quot;Young duck, for your mishap on this question, you shall stay here with me for the rest of your rubber filled life...&quot;
 &lt;h1 style=&quot;text-align:center;&quot;&gt;&lt;font color=&quot;pink&quot;&gt;YOU LIVE IN THE EXPANSE FOR THE REST OF YOUR LIFE&lt;/font&gt;&lt;/h1&gt;</tw-passagedata><tw-passagedata pid="17" name="final" tags="" position="3,659" size="100,100">&quot;Hazzah!&quot; The giant shouts. &quot;You have not only answered my question, but also gotten your one way trip to the riches of these caves!&quot;
 He lifts Howard off his feet, and into the small opening at the top of the covered landscape. In front of Howard are riches beyond his wildest dreams. On a table in front of him, a gold cup contains the following message:
 &quot;In order to take all of this gold, you must answer this riddle of old: What always runs but never walks, often murmurs, never talks, has a bed but never sleeps, has a mouth but never eats?&quot;
 
-&lt;p style=&quot;text-align:center;&quot;&gt;
+&lt;p&gt;
 [[A person]]
 [[A river]]
 [[A flame]]
 [[A dog]]
-&lt;/p&gt;</tw-passagedata><tw-passagedata pid="18" name="new" tags="" position="272,600" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="19" name="A person" tags="" position="0,801" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="20" name="A river" tags="" position="129,799" size="100,100">There is a dinging sound all around the room, as a timer on the wall displays that Howard only has 45 seconds to take as much as he can, or he will leave with nothing. And so, he grabs the cup with the riddle and a few gold coins, and leaves, almost within the 5 seconds he was just there. The exit opens and the sun shines, as he tries to shield with the cup. He goes home and &lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSeTEKb3p7lrSbuapyE4koIRY52D0_jPYsN98iYmhVKAO_fHCA/viewform?embedded=true&quot;&gt;&lt;font color = #11ED12&gt;tells&lt;/font&gt;&lt;/a&gt; everyone of the riches they can obtain, if they travel to the Duckopolis ruins and brace themselves for its many challenging problems. 
+&lt;/p&gt;
 
-&lt;h1 style=&quot;text-align:center;&quot;&gt;&lt;font color= #11ED12&gt;THE END&lt;/font&gt;&lt;/h1&gt;</tw-passagedata><tw-passagedata pid="21" name="A flame" tags="" position="260,801" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="22" name="A dog" tags="" position="392,801" size="100,100">Double-click this passage to edit it.</tw-passagedata></tw-storydata>
+(set: $points to $points + 1)</tw-passagedata><tw-passagedata pid="18" name="new" tags="" position="272,600" size="100,100">
+Questions right: $points</tw-passagedata><tw-passagedata pid="19" name="A person" tags="" position="0,800" size="100,100">
+Questions right: $points</tw-passagedata><tw-passagedata pid="20" name="A river" tags="river" position="130,799" size="100,100">There is a dinging sound all around the room, as a timer on the wall displays that Howard only has 45 seconds to take as much as he can, or he will leave with nothing. And so, he grabs the cup with the riddle and a few gold coins, and leaves, almost within the 5 seconds he was just there. The exit opens and the sun shines, as he tries to shield with the cup. He goes home and &lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSeTEKb3p7lrSbuapyE4koIRY52D0_jPYsN98iYmhVKAO_fHCA/viewform?embedded=true&quot;&gt;&lt;font color = #11ED12&gt;tells&lt;/font&gt;&lt;/a&gt; everyone of the riches they can obtain, if they travel to the Duckopolis ruins and brace themselves for its many challenging problems. 
+
+&lt;h1 style=&quot;text-align:center;&quot;&gt;&lt;font color= #11ED12&gt;THE END&lt;/font&gt;&lt;/h1&gt;
+
+All $points questions were answered correctly.</tw-passagedata><tw-passagedata pid="21" name="A flame" tags="" position="260,801" size="100,100">
+Questions right: $points</tw-passagedata><tw-passagedata pid="22" name="A dog" tags="" position="393,801" size="100,100">
+Questions right: $points</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
